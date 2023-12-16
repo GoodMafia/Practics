@@ -1,0 +1,31 @@
+.parent{
+    width: 1330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    display: inline-block;
+    padding: 30px;
+    font-family: 'Actor';
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.5s;
+    color: #000000B2;
+    
+}
+
+.link:hover{
+    background-color: #EA4737;
+    color: white;
+}
+
+.search-icon{
+    padding-right: 26px;
+}
+
+.container{
+    max-width: 1330px;
+    margin: auto;
+  }
